@@ -1,0 +1,72 @@
+ body{
+background-color:rgb(0, 0, 0);
+}
+
+ .navbar{
+    opacity: .6;
+    border-bottom: solid 2px burlywood;
+}
+header{
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../image/pexels-toni-cuenca-585752.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    word-spacing: 5px; letter-spacing: 2px;
+}
+hr{
+    
+    border: solid red 3px;
+    width: 100px;
+    margin: 30px auto 20px auto;
+}
+audio{
+    margin-top: 10px;
+    margin-left: 420px;
+    
+}
+
+input[type=text] , input[type=email] , select , textarea{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: solid 2px #ccc;
+    border-radius: 5px;
+    
+}
+
+input[checkbox]{
+    margin-top: 15px;
+    
+}
+
+button{
+    padding: 12px 30px;
+    border: solid 2px burlywood;
+    border-radius: 15px;
+    background-color:chocolate;
+    color: white;
+
+}
+button:hover{
+    background-color: transparent;
+    color: red;
+}
+.carousel-inner{
+    height: 500px;
+}
+.carousel-item img{
+    height: 500px;
+    background-size: cover;
+}
+
+
+#hungry{
+    margin-top: 10px;
+}
