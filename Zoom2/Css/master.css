@@ -1,0 +1,897 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+header
+{
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.7)) , url(../images/hero.jpg);
+    background-position: center;
+}
+.hero
+{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+.hero h1 
+{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.hero .btn
+{
+    font-size: 18px;
+    border: 1px solid orange;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: orange;
+}
+.hero .btn:hover
+{
+    color: white;
+    background-color: orange;
+}
+.logo
+{
+    float: left;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.main-nav .toggle-menu
+{
+    font-size: 25px;
+    color: white;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+    display: flex;
+}
+.main-nav li 
+{
+    margin-left: 30px;
+}
+.main-nav li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main-nav li a:hover
+{
+    color: orange;
+    text-decoration: none;
+}
+/* .fooddelivery .container .info
+{
+   
+} */
+.fooddelivery .container .info h1 
+{
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family:'Lato', sans-serif;
+}
+.fooddelivery .container .info h1::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom: -33px;
+}
+
+.fooddelivery .container .info p
+{
+    width: 650px;
+    margin:  0 auto 100px;
+    margin-top: 60px;
+    color: #777;
+    line-height: 1.6;
+}
+.fooddelivery-contact
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(265px , 1fr));
+    gap: 10px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    margin-top:-40px;
+    margin-bottom: 60px;
+}
+.fooddelivery-contact .food-col i
+{
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: orange;
+}
+.fooddelivery-contact .food-col h3 
+{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #777;
+}
+.fooddelivery-contact .food-col p 
+{
+    width: 240px;
+    line-height: 1.8;
+    color: #777
+}
+
+.images
+{
+    margin-top: 40px;
+}
+.images .images-container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.images .images-container .box img 
+{
+    width:100%;
+} 
+.images .images-container .box 
+{
+    flex-basis: 25%;
+}
+.How-it-work
+{
+    background-color: #ddd;
+    margin-bottom: 60px;
+    padding: 50px;
+}
+.How-it-work .container h1
+{
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gowun Batang', serif;
+}
+.How-it-work .container h1::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom: -33px;
+}
+.How-content
+{
+    margin-top:40px;
+}
+.How-content .mobile img
+{
+width: 200px;
+}
+.How-it-work  .How-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.How-it-work  .How-content .content .card 
+{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.How-it-work  .How-content .content .card h4 
+{
+    margin-top: 7px;
+    border: 2px solid orange;
+    border-radius:50%;
+    padding: 10px;
+    color: orange;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.How-it-work  .How-content .content .card p
+{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #777;
+    width: 295px;
+}
+.card .image1 img
+{
+    margin-left: 20px;
+    width: 140px;
+}
+.card .image2 img
+{
+    margin-left: 20px;
+    width: 125px;
+}
+
+.cites .container .info h1 
+{
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gowun Batang', serif;
+}
+.cites .container .info h1::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom: -33px;
+}
+.cites .container .cites-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+.cites .container .cites-content .cites-col .contentt h1 
+{
+    text-transform: uppercase;
+    color: #777;
+    margin-top: 15px;
+}
+.cites .container .cites-content .cites-col .contentt .infoo
+{
+   margin-bottom: 10px;
+}
+.cites .container .cites-content .cites-col .contentt .infoo .icon
+{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.cites .container .cites-content .cites-col .contentt .infoo .icon i 
+{
+    color: orange;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+.cites .container .cites-content .cites-col .contentt .infoo .icon  h3 
+{
+    margin-bottom: 2px;
+    color: #777;
+}
+.cites .container .cites-content .cites-col .contentt .infoo .icon  h3 a 
+{
+  
+    color: orange;
+}
+
+.customer
+{
+    margin-top: 60px;
+    background-image: linear-gradient(rgba(0 , 0 , 0 , 0.7) , rgba(0 , 0 , 0 , 0.7)) , url(../images/back-customers.jpg);
+    background-position: center;
+}
+.customer .container .info h1 
+{
+    padding: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gowun Batang', serif;
+}
+.customer .container .info h1::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom: -10px;
+}
+.customer .container .customer-content 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+.customer .container .customer-content .info i 
+{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.customer .container .customer-content .info p 
+{
+    color: white;
+    line-height: 1.8;
+    width: 325px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.customer .container .customer-content .info .image1
+{
+    display: flex;
+}
+.customer .container .customer-content .info .image1 img 
+{
+    margin-top: 20px;
+    width: 60px;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.customer .container .customer-content .info .image1 h5 
+{
+    margin-top: 35px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Start Eating */
+/* .Eating
+{
+    margin-top: 20px;
+}
+.Eating .container .info h1 
+{
+    margin-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gowun Batang', serif;
+}
+.Eating .container .info h1::before
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom: -33px;
+}
+
+.row .mmm
+{
+    margin:5px;
+    padding: 20px;
+    background-color:rgb(100, 100, 100);
+}
+.row .head
+{
+    padding: 30px;
+    border-bottom: 1px white;
+}
+.Eating .row hr
+{
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row .head h4 
+{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.Eating .row .head span
+{
+    margin: 5px 0 5px 0;
+    padding: 15px 0 5px 0;
+    font-size:50px;
+    font-weight: normal;
+    color: orange;
+}
+.Eating .row .head span::after
+{
+    content: "/month";
+    font-size: 20px;
+    position: relative;
+    right:-5px;
+}
+.row .mmm head p 
+{
+    margin-left: 12px;
+    color: dimgrey;
+}
+.row ul 
+{
+   list-style: none;
+   padding: 10px;
+}
+.row ul li 
+{
+    padding: 6px;
+}
+
+.row ul li i 
+{
+    color: orange;
+    margin-right: 10px;
+}
+
+.row .foot 
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.row .foot a 
+{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.row .nnn
+{
+    padding: 20px;
+    background-color:rgb(100, 100, 100);
+}
+.row .head
+{
+    padding: 30px;
+    border-bottom: 1px white;
+}
+.Eating .row hr
+{
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row .head h4 
+{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.Eating .row .head span
+{
+    margin: 5px 0 5px 0;
+    padding: 15px 0 5px 0;
+    font-size:50px;
+    font-weight: normal;
+    color: orange;
+}
+.Eating .row .head span::after
+{
+    content: "/month";
+    font-size: 20px;
+    position: relative;
+    right:-5px;
+}
+.row .mmm head p 
+{
+    margin-left: 12px;
+    color: dimgrey;
+}
+.row ul 
+{
+   list-style: none;
+   padding: 10px;
+}
+.row ul li 
+{
+    padding: 6px;
+}
+
+.row ul li i 
+{
+    color: orange;
+    margin-right: 10px;
+}
+
+.row .foot 
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.row .foot a 
+{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.row .ooo
+{
+    padding: 20px;
+    background-color:rgb(100, 100, 100);
+}
+.row .head
+{
+    padding: 30px;
+    border-bottom: 1px white;
+}
+.Eating .row hr
+{
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.row .head h4 
+{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.Eating .row .head span
+{
+    margin: 5px 0 5px 0;
+    padding: 15px 0 5px 0;
+    font-size:50px;
+    font-weight: normal;
+    color: orange;
+}
+.Eating .row .head span::after
+{
+    content: "/month";
+    font-size: 20px;
+    position: relative;
+    right:-5px;
+}
+.row .mmm head p 
+{
+    margin-left: 12px;
+    color: dimgrey;
+}
+.row ul 
+{
+   list-style: none;
+   padding: 10px;
+}
+.row ul li 
+{
+    padding: 6px;
+}
+
+.row ul li i 
+{
+    color: orange;
+    margin-right: 10px;
+}
+
+.row .foot 
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.row .foot a 
+{
+    background-color: orange;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+} */
+
+/* End Eating */
+.eating
+{
+    background-color: rgb(243, 243, 243);
+}
+.eating .container .info h1 
+{
+    padding: 50px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Gowun Batang', serif;
+}
+.eating .container .info h1::after
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom:-1px;
+}
+.eating .container .plans
+{
+   margin-top: 70px;
+   display: grid;
+   grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+   gap: 20px;
+}
+.eating .container .plans .plan 
+{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white
+}
+.eating .container .plans .plan .head
+{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(180, 174, 174);
+}
+.eating .container .plans .plan .head h3 
+{
+    font-size: 25px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.eating .container .plans .plan .head span
+{
+    color: orange;
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.eating .plans .plan .head span::after
+{
+    content: "/month";
+    font-size: 20px;
+    position: relative;
+    right: -15px;
+}
+.eating .container .plans .plan .head .sp
+{
+    color: orange;
+    font-size: 30px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.eating .plans .plan .head .sp::after
+{
+    content: "/meal";
+    font-size: 20px;
+    position: relative;
+    right: -15px;
+}
+.eating .container .plans .plan .head p 
+{
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.eating .container .plans .plan .head p span
+{
+    margin-bottom: 10px;
+}
+.eating .container .plans .plan ul
+{
+    list-style: none;
+    margin-top: 10px;
+    border-bottom: 1px solid  rgb(180, 174, 174); 
+}
+.eating .container .plans .plan ul li i 
+{
+    margin-right: 5px;
+    color: orange;
+    margin-bottom: 20px;
+}
+.eating .container .plans .plan ul li 
+{
+    margin-left:15px;
+    color: #777;
+}
+.eating .container .plans .plan .foot
+{
+    margin-top: 20px;
+    padding: 10px; 
+}
+.eating .container .plans .plan .foot a.active
+{
+    padding: 10px;
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-left: 50px;
+    width:150px;
+}
+.eating .container .plans .plan .foot a
+{
+    border: 1px solid orange;
+    padding: 10px;
+    color: orange;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 150px;
+    display: block;
+    margin-left: 50px;
+    text-align: center;
+} 
+
+.eating .container .plans .plan .head .p1 
+{
+    visibility: hidden;
+}
+.maps
+{
+    display: flex;
+}
+.maps .map img 
+{
+    width: 800px;
+    height: 600px;
+}
+.maps .map 
+{
+    flex-basis: 50%;
+}
+.map .inffo 
+{
+    flex-basis: 50%;
+}
+
+.maps .inffo .info h1 
+{
+    padding: 50px;
+    margin-top: -10px;
+    text-transform: uppercase;
+    text-align: center;
+    color:#777;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Gowun Batang', serif;
+}
+.maps .inffo .info h1::after
+{
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: orange;
+    height: 2px;
+    width: 80px;
+    bottom:30px;
+}
+.maps .inffo p 
+{
+    margin-left: 20px;
+    font-size: 20px;
+    color:#777;
+    margin-bottom: 5px;
+}
+.maps .inffo form
+{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.maps .inffo form label 
+{
+    color: #777; 
+    font-size: 20px;
+    
+} 
+.maps .inffo form table tr td input:focus
+{
+    outline: none;
+}
+.maps .inffo form table tr td input:not(.ios)
+{
+    margin-left: 20px;
+    padding: 5px;
+    width: 250px;
+}
+.maps .inffo form table tr td  .ios 
+{
+    background-color: orange;
+    color: orange;
+    margin-left: 20px;
+}
+.maps .inffo form table tr td select
+{
+    padding: 5px;
+    color: #777;
+    margin-left: 20px;
+}
+
+.maps form input[type="submit"] 
+{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    width: 150px;
+    font-size: 25px;
+    display: block;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.footer
+{
+    background-color: #9e9e9e;
+    height: 200px;
+}
+.footer .footer-content
+{
+    display: flex;
+    justify-content: space-between
+}
+.footer .footer-content .links ul 
+{
+    list-style: none;
+    display: flex;
+}
+.footer .footer-content .links ul li 
+{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 5px;
+}
+.footer .footer-content .icons
+{
+    margin-top: 50px;
+    display: flex;
+}
+.footer .footer-content .icons:hover{
+    color:midnightblue;
+}
+.footer .footer-content .icons i 
+{
+    margin-left: 20px;
+}
+.footer p 
+{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer span 
+{
+    color: royalblue;
+    font-size: 25px;
+    font-weight: bold;
+}
